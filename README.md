@@ -16,5 +16,21 @@
 - CSS
 - JavaScript（バニラ）
 
+## レポジトリ構成
+にほんごゲーム/
+│
+├── README.md                 # 日本語で書かれたプロジェクト説明
+├── index.html                # 日本語インターフェース
+├── css/
+│   └── style.css
+├── js/
+│   ├── main.js               # メイン処理（日本語コメント）
+│   ├── data.js               # ひらがなデータ
+│   └── game.js               # ゲームロジック（日本語コメント）
+└── assets/
+    └── images/
+        └── kana/
+        
 ## ライセンス
 MITライセンス
+
