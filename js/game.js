@@ -39,3 +39,8 @@ function こたえをあわせる(えらんだ, せいかい) {
     スコア += 10;
     alert('せいかい！');
   } else {
+    alert(`ざんねん！せいかいは「${せいかい}」です`);
+  }
+  document.getElementById('てんすう').innerText = `スコア: ${スコア}`;
+  もんだいをだす();
+}
